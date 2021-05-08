@@ -31,14 +31,19 @@ public class NewMain {
         int x = 10, y = 3, z = 4, t = 2, res;
         /*res = x*t+y+z+t;
          System.out.println("res = "+res);*/
-
         //boolean test = (x > y) & (z < t)
         //boolean test = (x < y) && (++z < t);  // cette expression est false
 //        boolean test = (x > y) || (++z < t);
 //        System.out.println("z = "+z);
 //        System.out.println("test = " + test);
+         //**** Le test ternaire
+        /*if(x>y)
+            res = 1;
+        else res = -1;*/
+        res = (x<y)?1 : -1;
+        System.out.println((x>y)?true : -1);
         
-         //**** Les opérateurs binaires
+        //System.out.println("res = "+res);
 
     }
 
