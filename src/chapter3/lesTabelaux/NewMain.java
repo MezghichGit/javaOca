@@ -5,6 +5,7 @@
  */
 package chapter3.lesTabelaux;
 
+import chapter4.Animal;
 import java.util.Arrays;
 
 /**
@@ -87,6 +88,9 @@ public class NewMain {
             }
             System.out.println();
         }
+        
+        Animal a = new Animal();
+        //a.name  : impossible
     }
 
 }
