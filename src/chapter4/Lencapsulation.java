@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package chaptre41;
-import static chapter4.Operations.Pi;
+package chapter4;
+
 /**
  *
  * @author amine
  */
-public class NewMain {
+public class Lencapsulation {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Oiseau o = new Oiseau();
-        System.out.println(Pi);
-        
+        // TODO code application logic here
     }
     
 }
