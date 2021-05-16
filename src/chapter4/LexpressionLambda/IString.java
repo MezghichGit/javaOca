@@ -12,4 +12,12 @@ package chapter4.LexpressionLambda;
 @FunctionalInterface
 public interface IString {
     boolean op(String src, String temp);
+    
+    static void info(){
+        System.out.println("interface IString");
+    }
+    
+    default void info2(){
+        System.out.println("interface IString");
+    }
 }

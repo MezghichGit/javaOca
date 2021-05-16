@@ -31,16 +31,17 @@ public class NewMain {
          v2.info();
          v3.info();*/
         //Correction ex
-        /*
-         IString imp1 = (String a, String b)->{return a.startsWith(b);};
         
+         IString imp1 = (String a, String b)->{return a.startsWith(b);};
+         imp1.info2();
+         IString.info();
          IString imp2 = (String a, String b)->{return a.contains(b);}; // EXPRESSION COMPLETE
          IString imp3 = (a,b)-> a.contains(b); // EXPRESSION REDUITE
          System.out.println(imp1.op("ProgrammerI", "Pr"));
          System.out.println(imp2.op("ProgrammerI", "gr"));
         
          System.out.println(imp1.op("ProgrammerI", "vr"));
-         System.out.println(imp2.op("ProgrammerI", "RG"));*/
+         System.out.println(imp2.op("ProgrammerI", "RG"));
         //l'interface prédéfinie Predicate
         Predicate<String> p = (String s) -> {
             return s.length() < 4;
